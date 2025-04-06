@@ -24,7 +24,7 @@ async function fetchTrendingTopics() {
             google_trends_link: t.serpapi_google_trends_link // Link to trends
         }));
 
-        console.log("Top Topics:", topTopics); // Debug final output
+        console.log("Topss Topics:", topTopics); // Debug final output
         
         return topTopics;
     } catch (error) {
